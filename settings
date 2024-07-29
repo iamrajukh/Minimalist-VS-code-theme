@@ -1,0 +1,168 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.settings.editor": "json",
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDelete": false,
+  "extensions.autoUpdate": true,
+  "update.mode": "default",
+  "git.autofetch": true,
+  "typescript.tsserver.log": "off",
+  "javascript.validate.enable": false,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/assets/css/"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "angular.experimental-ivy": true,
+  "update.showReleaseNotes": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.ignoreMissingGitWarning": true,
+  "css.lint.vendorPrefix": "ignore",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.gpuAcceleration": "on",
+  "html.format.wrapLineLength": 300,
+  "prettier.printWidth": 300,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontFamily": "'Cascadia Code',Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "'Cascadia Code',Consolas, 'Courier New', monospace",
+  "editor.codeLensFontFamily": "'Cascadia Code',Consolas, 'Courier New', monospace",
+  "debug.console.fontFamily": "'Cascadia Code',Consolas, 'Courier New', monospace",
+  "scm.inputFontFamily": "'Cascadia Code',Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": "'calt', 'ss01'",
+  "editor.lineHeight": 1.4,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.fontSize": 14,
+  "git.confirmSync": false,
+  "explorer.compactFolders": false,
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "window.zoomLevel": 0.45,
+  "editor.padding.top": 10,
+  "editor.minimap.enabled": false,
+  "window.commandCenter": false,
+  "window.titleBarStyle": "custom",
+  "breadcrumbs.enabled": false,
+  "editor.linkedEditing": true,
+  "apc.font.family": "'Cascadia Code',Consolas, 'Courier New', monospace",
+  "apc.monospace.font.family": "'Cascadia Code',Consolas, 'Courier New', monospace",
+  "apc.activityBar": {
+    "position": "top",
+    "hideSettings": true,
+    "size": 30
+  },
+  "apc.electron": {
+    "transparent": true,
+    "opacity": 0.98,
+    "vibrancy": "fullscreen-ui",
+    "visualEffectState": "active"
+  },
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 20,
+    "fontSize": 11
+  },
+  "apc.header": {
+    "height": 30
+  },
+  "apc.listRow": {
+    "height": 20
+  },
+  "apc.stylesheet": {
+    ".sidebar > .composite": "height: 10px !important",
+    ".title-label": "display: none !important",
+    ".inline-tabs-placeholder": "display: none !important",
+    ".split-view-view .visible": "background-color: #23262e!important",
+    ".quick-input-widget": {
+      "position": "absolute !important",
+      "top": "200px !important",
+      "left": "50%",
+      "border-radius": "10px"
+    },
+    ".titlebar-left": {
+      "max-width": "70px !important"
+    },
+    ".titlebar-center": {
+      "margin": "0 !important"
+    },
+    ".action-item.menu-entry": {
+      "display": "none !important"
+    },
+    ".monaco-inputbox": {
+      "border-radius": "6px!important"
+    },
+    ".monaco-inputbox>.ibwrapper>.input, .monaco-inputbox>.ibwrapper>.mirror": {
+      "padding": "8px 10px !important"
+    },
+    ".quick-input-list > .monaco-list > .monaco-scrollable-element": {
+      "padding": "2px !important"
+    }
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": false,
+    "**/.next": true,
+    "**/.husky": true,
+    "**/drizzle": true,
+    "**/dist": false,
+    "**/.todo.md": true,
+    "**/.angular": true,
+    "**/.vscode": true,
+    "**/.eslintrc.cjs": true,
+    "**/.editorconfig": true,
+    "**/.gitignore": true,
+    "**/.lintstagedrc.mjs": true,
+    "**/.markdownlint.json": true,
+    "**/.markdownlintignore": true,
+    "**/.prettierignore": true,
+    "**/bun.lockb": true,
+    "**/cspell.json": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/next-env.d.ts": true,
+    "**/postcss.config.cjs": true,
+    "**/prettier.config.js": true,
+    "**/README.md": false,
+    "**/next.config.js": true,
+    "**/tailwind.config.ts": true,
+    "**/drizzle.config.ts": true,
+    "**/migrate.ts": true,
+    "**/.env.example": true
+  },
+  "workbench.editor.tabCloseButton": "left",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "editor.background": "#24272f",
+    "terminal.background": "#24272f",
+    "titleBar.activeForeground": "#999999",
+    "statusBar.foreground": "#717687",
+    "editorLineNumber.foreground": "#464a5b",
+    "statusBarItem.hoverBackground": "#161921"
+  },
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "editor.scrollbar.horizontalScrollbarSize": 10,
+  "workbench.editor.tabActionLocation": "left",
+  "workbench.colorTheme": "Andromeda",
+  "workbench.editor.editorActionsLocation": "hidden"
+}
